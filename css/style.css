@@ -1,0 +1,69 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+:root{
+    --dark: #332c50;
+    --grenn: #46878f;
+    --lime: #94e344;
+    --light: #e2f3e4;
+}
+
+body{
+    background-color: var(--dark);
+    text-align: center;
+    font-family: 'Nerko One', cursive;
+    letter-spacing: 3px;
+    color: var(--light);
+}
+
+a{
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--light);
+    padding: 10px;
+    border-radius: 20px;
+    background-color: var(--grenn);
+    transition: all .3s ease-in-out;
+    display: block;
+    width: 150px;
+    margin: 0 auto;
+    border: 1px solid var(--grenn);
+    font-size: 20px;
+}
+
+a:hover{
+    background-color: var(--lime);
+    color: var(--dark);
+    box-shadow: 0px 0px 20px var(--lime);
+    border: 1px solid var(--light);
+}
+
+p{
+    text-transform: uppercase;
+    color: var(--dark);
+    font-size: 25px;
+    border: 1px solid var(--light);
+    box-shadow: 0px 0px 20px var(--lime);
+    padding: 10px;
+    border-radius: 15px;
+    max-width: 50%;
+    margin: 10px auto 25px auto;
+    background-color: var(--lime);
+}
+
+img{
+    background-color: var(--light);
+    border-radius: 15px;
+    margin-left: 10px;
+    transition: transform .3s ease;
+    cursor: pointer;
+}
+
+img:hover{
+    transform: scale(1.1);
+}
+
+.red{
+    background-color: rgb(184, 74, 74);
+}
